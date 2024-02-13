@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="calculator">
+        <form action="#">
+            <div>
+                <input type="text" name="display" id="display">
+            </div>
+
+            <div class="main-btn">
+                <input type="button" value="AC" onclick="ac()">
+                <input type="button" value="DE" onclick="del()">
+                <input type="button" value="." onclick="dot()">
+                <input type="button" value="/" onclick="divison()">
+
+                <input type="button" value="7" onclick="seven()" class="seven">
+                <input type="button" value="8" onclick="eight()">
+                <input type="button" value="9" onclick="nine()">
+                <input type="button" value="*" onclick="moduels()">
+                                
+                <!-- <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="*"> -->
+                                
+                <input type="button" value="4" onclick="four()">
+                <input type="button" value="5" onclick="five()">
+                <input type="button" value="6" onclick="six()">
+                <input type="button" value="-" onclick="substract()">
+                                
+                <input type="button" value="1" onclick="one()">
+                <input type="button" value="2" onclick="two()">
+                <input type="button" value="3" onclick="three()">
+                <input type="button" value="+"onclick="addition()">
+                                
+                <input type="button" value="00" onclick="dZero()">
+                <input type="button" value="0" onclick="zero()">
+                <input type="button" value="=" class="equal" onclick="equal()">
+
+                
+            </div>
+
+
+
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
